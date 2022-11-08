@@ -1,5 +1,9 @@
+*{
+  background-color: rgb(228, 236, 233);
+}
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -13,17 +17,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +28,96 @@
   to {
     transform: rotate(360deg);
   }
+}
+.header {
+  background-color: rgba(0, 0, 0, 0.739);
+  color : rgb(215, 215, 223);
+font-display:inherit;
+  margin: 0 auto;
+  font-size: 50px  !important;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-stretch: extra-expanded;
+  border: 1px solid;
+  border-color: black ;
+  border-radius: 10px;
+  border-width: 3px;
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  margin-top: 10vh;
+  width: 80%;
+  
+
+}
+input {
+  border: 3px solid;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  width: auto;
+  border-radius: 5px;
+  cursor: pointer;
+
+
+
+}
+input::backdrop {
+  color: #616c6e;
+}
+button {
+  border: 3px solid;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: auto;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  width: auto;
+  align-items: center;
+  border: #616c6e 3px solid;
+  cursor: pointer;
+
+}
+li{
+    background-color: rgb(231, 238, 244);
+    border: 1px solid;
+    border-color: black ;
+    border-radius: 10px;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    margin-top: 10px;
+   
+    }
+  
+      
+  
+
+
+#btn:backdrop{
+  color : black; 
+border : 3px solid;
+border-color: black;
+border-radius: 20px;
+background-color: lightslategray;
+cursor: pointer;
+
+
+}
+btn:hover{
+  color : rgb(154, 12, 12); 
+  border : 3px solid;
+  border-color: black;
+  border-radius: 20px;
+  background-color: lightslategray;
+}
+.checkbox:active{
+  color: aqua;
 }
